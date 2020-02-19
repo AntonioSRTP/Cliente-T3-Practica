@@ -1,0 +1,66 @@
+header {
+	font-family: 'Special Elite', cursive;
+	font-size: 35px;
+	text-align: center;
+}
+
+body{
+	background: url(https://i.gifer.com/OzZg.gif);
+	color: red;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+h1{font-size: 50px;}
+
+.nav {
+	overflow: hidden;
+}
+
+.armas {
+	text-align: center;
+	margin: 0 auto;
+	width: 70px;
+	float:left;
+}
+
+.instruccion{
+	text-align: end;
+	color: white;
+	font-size: 20px;
+}
+
+.zombie {
+	position: relative;
+	top: 15em;
+	display: block;
+	margin-left: auto;	
+	margin-right: auto;
+	width: 300px;
+}
+
+.instruccion{font-size: 14px;}
+
+body:hover {
+  cursor: url("punteros/hand2.png"), auto;
+}
+
+body.mira:hover{
+	cursor: url("punteros/mira3.png"), auto;
+}
+body.mano:hover{
+	cursor: url("punteros/hand2.png"), auto;
+}
+
+@media (min-width: 400px){
+
+	.armas {
+		text-align: center;
+		margin: 0 auto;
+		width: 100px;
+		float:left;
+	}
+	
+	h1{font-size: 80px;}
+	.instruccion{font-size: 20px;}
+}
