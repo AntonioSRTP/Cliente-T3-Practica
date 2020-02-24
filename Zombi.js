@@ -120,7 +120,11 @@ $(document).ready(function() {
                 if (jugador.arma.nombre == "Granada") {
                     console.log("Coge algo que se pueda recargar (Máquina)");
                 } else {
-                    jugador.arma.recargar();
+                    if (pistola.municion < 6){
+                        jugador.arma.recargar();
+                    } else {
+                        console.log("No hace falta recargar, tienes todas las balas.");
+                    }
                 }
             }
         }
